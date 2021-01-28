@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+    <style>
+        body{
+            background: rgba(170, 165, 165, 0.911);
+        }
+        li{
+       list-style: none;
+       padding: 30px;
+       display: inline-flex;
+       box-sizing: border-box;
+       box-shadow: 20px;
+       
+   }
+
+   li a{
+margin-left: 220px;
+padding: 10px;
+margin-top: 100PX;
+text-decoration:none;
+display: absolute;
+display: block;
+align-items: center;
+width: 210px;
+height: 80px;
+color: black;
+background: #fff;
+text-align:center;
+padding-left: 20px;
+transform: rotate(-30deg) skewX(25deg) translate(0,0);
+transition: 0.5s;
+box-shadow: -20px 20px 10px rgba(0,0,0,0.5);
+}
+
+li a:before {
+content: '';
+position: absolute;
+top: 10px;
+left: -20px;
+height: 100%;
+width: 20px;
+background: grey;
+transform: 0.5s;
+transform: rotate(0deg) skewY(-45deg);
+}
+li a:after {
+content: '';
+position: absolute;
+bottom: -20px;
+left: -10px;
+height: 20px;
+width: 100%;
+background: grey;
+transform: 0.5s;
+transform: rotate(0deg) skewX(-45deg);
+}
+li a:hover{
+transform: rotate(-30deg) skew(25deg) translate(20px,-15px);
+box-shadow: -50px 50px 50px rgba(0,0,0,0.5);
+}
+li:hover a{
+    background: yellow;
+
+}
+li:hover a:before{
+    background: yellow;
+
+}
+li:hover a:after{
+background: yellow;
+}
+
+
+
+</style>
+</head>
+<body>
+    <li><a href="Assignments/Chapter_7/exercise6.1.html">Exercise 6.1</a></li>
+    <li><a href="Assignments/Chapter_7/exercise6.2.html">Exercise 6.2</a></li>
+    <li><a href="Assignments/Chapter_7/exercise6.3.html">Exercise 6.3</a></li>
+    <li><a href="Assignments/Chapter_7/exercise6.4.html">Exercise 6.4</a></li>
+    
+</body>
+</html>

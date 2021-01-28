@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 2</title>
+    <style>
+             li{
+            list-style: none;
+            padding: 30px;
+            display: inline-flex;
+            box-sizing: border-box;
+            box-shadow: 20px;
+            
+        }
+  
+        li a{
+    margin-left: 250px;
+    text-decoration:none;
+    display: absolute;
+    display: block;
+    align-items: center;
+    width: 210px;
+    height: 80px;
+    color: black;
+    background: #fff;
+    text-align:center;
+    padding-left: 20px;
+    transform: rotate(-30deg) skewX(25deg) translate(0,0);
+    transition: 0.5s;
+    box-shadow: -20px 20px 10px rgba(0,0,0,0.5);
+}
+   
+li a:before {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: -20px;
+    height: 100%;
+    width: 20px;
+    background: grey;
+    transform: 0.5s;
+    transform: rotate(0deg) skewY(-45deg);
+ }
+ li a:after {
+    content: '';
+    position: absolute;
+    bottom: -20px;
+    left: -10px;
+    height: 20px;
+    width: 100%;
+    background: grey;
+    transform: 0.5s;
+    transform: rotate(0deg) skewX(-45deg);
+}
+li a:hover{
+     transform: rotate(-30deg) skew(25deg) translate(20px,-15px);
+     box-shadow: -50px 50px 50px rgba(0,0,0,0.5);
+ }
+ li:hover a{
+    background: crimson;
+
+}
+li:hover a:before{
+    background: crimson;
+
+}
+li:hover a:after{
+    background: crimson;
+}
+   
+    </style> 
+ 
+</head>
+<body>
+    <li><a href="Assignments/Chapter_2/exercise1.1.html">Exercise 1.1</a></li>
+    <li><a href="Assignments/Chapter_2/exercise1.2.html">Exercise 1.2</a></li>
+    <li><a href="Assignments/Chapter_2/exercise1.3.html">Exercise 1.3</a></li>
+    <li><a href="Assignments/Chapter_2/exercise1.4.html">Exercise 1.4</a></li>
+    <li><a href="Assignments/Chapter_2/exercise1.5.html">Exercise 1.5</a></li>
+    <li><a href="Assignments/Chapter_2/exercise1.6.html">Exercise 1.6</a></li>
+    <li><a href="Assignments/Chapter_2/exercise1.7.html">Exercise 1.7</a></li>
+    <li><a href="Assignments/Chapter_2/exercise1.8.html">Exercise 1.8</a></li>
+    <li><a href="Assignments/Chapter_2/exercise1.9.html">Exercise 1.9</a></li>
+    <li><a href="Assignments/Chapter_2/exercise1.10.html">Exercise 1.10</a></li>
+    <li><a href="Assignments/Chapter_2/exercise1.11.html">Exercise 1.11</a></li>
+    <li><a href="Assignments/Chapter_2/exercise1.12.html">Exercise 1.12</a></li>
+    <li><a href="Assignments/Chapter_2/exercise1.13.html">Exercise 1.13</a></li>
+    <li><a href="Assignments/Chapter_2/exercise1.14.html">Exercise 1.14</a></li>
+    <li><a href="Assignments/Chapter_2/exercise1.15.html">Exercise 1.15</a></li>
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background: rgba(211, 204, 204, 0.281);
+    }
+    li{
+    list-style-type: none;
+    margin-top: 100px;
+    display: inline-flex;
+    text-decoration: none;
+}
+
+   
+    li a{
+    margin-left: 250px;
+    text-decoration:none;
+    display: relative;
+    display: inline-flex;
+    align-items: center;
+    width: 210px;
+    height: 80px;
+    background: #fff;
+    text-align:center;
+    padding-left: 20px;
+    transform: rotate(-30deg) skewX(25deg) translate(0,0);
+    transition: 0.5s;
+    box-shadow: -20px 20px 10px rgba(0,0,0,0.5);
+}
+li a:before {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: -20px;
+    height: 100%;
+    width: 20px;
+    background: grey;
+    transform: 0.5s;
+    transform: rotate(0deg) skewY(-45deg);
+ }
+ li a:after {
+    content: '';
+    position: absolute;
+    bottom: -20px;
+    left: -10px;
+    height: 20px;
+    width: 100%;
+    background: grey;
+    transform: 0.5s;
+    transform: rotate(0deg) skewX(-45deg);
+}
+li a:hover{
+     transform: rotate(-30deg) skew(25deg) translate(20px,-15px);
+     box-shadow: -50px 50px 50px rgba(0,0,0,0.5);
+ }
+ li:hover a{
+    background: aqua;
+
+}
+li:hover a:before{
+    background: aqua;
+
+}
+li:hover a:after{
+    background: aqua;
+}
+</style>
+<body>
+    <li><a href="chapter2.html">Chapter 2</a></li>
+    <li><a href="chapter3.html">Chapter 3</a></li>
+    <li><a href="chapter4.html">Chapter 4</a></li>
+    <li><a href="chapter5.html">Chapter 5</a></li>
+    <li><a href="chapter6.html">Chapter 6</a></li>
+    <li><a href="chapter7.html">Chapter 7</a></li>
+    <li><a href="chapter8.html">Chapter 8</a></li>
+    <li><a href="chapter9.html">Chapter 9</a></li>
+
+
+</body>
+</html>
